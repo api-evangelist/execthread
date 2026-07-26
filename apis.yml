@@ -1,7 +1,27 @@
 aid: execthread
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/execthread.png
 name: Execthread
-description: Execthread is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  ExecThread is a selective, invitation-based network where successful executives
+  discreetly share confidential, recruiter-led job opportunities with one another
+  that are not posted on public job boards. The membership platform matches vetted
+  senior professionals with unadvertised executive-level roles, offers executive
+  branding services and resume review, and runs a points-based referral economy for
+  members who contribute opportunities. Founded as a private career marketplace, it
+  has been recognized on the Inc. 5000 and by the Financial Times. It is catalogued
+  in the API Evangelist network as a portfolio company of Canaan Partners; it exposes
+  no public API or developer surface as of this profile.
 url: https://raw.githubusercontent.com/api-evangelist/execthread/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +31,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Executive Search
+- Jobs
+- Recruiting
+- Careers
+- Talent
+- Networking
+- Human Resources
 apis: []
+common:
+- type: DomainSecurity
+  url: security/execthread-domain-security.yml
+- type: Website
+  url: https://www.execthread.com/
+- type: Login
+  url: https://www.execthread.com/login
+- type: Support
+  url: https://www.execthread.com/member-faq
+- type: TermsOfService
+  url: https://www.execthread.com/legal
+- type: PrivacyPolicy
+  url: https://www.execthread.com/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
