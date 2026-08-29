@@ -34,6 +34,9 @@ description: >-
   in the API Evangelist network as a portfolio company of Canaan Partners; it exposes
   no public API or developer surface as of this profile.
 url: https://raw.githubusercontent.com/api-evangelist/execthread/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "It is catalogued in the API Evangelist network as a portfolio company of Canaan Partners; it exposes no public API or developer surface as of this profile."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
